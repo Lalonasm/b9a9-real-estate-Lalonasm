@@ -1,119 +1,164 @@
 [
-    {
-      "title": "Luxury Villa with Ocean View",
-      "id":1,
-      "name": "Luxury Homes",
-      "description": "This stunning villa offers breathtaking ocean views, luxurious amenities, and spacious living areas.",
-      "price": "$2,500,000",
-      "status": "sale",
-      "area": "5000 sq ft",
-      "location": "Malibu, California",
-      "facilities": ["Infinity pool", "Spa", "Gourmet kitchen", "Home theater"],
-      "image": "path/to/image1.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Modern Downtown Loft",
-      "id":2,
-      "name": "Urban Living",
-      "description": "Sleek and stylish loft apartment in the heart of the city, perfect for young professionals.",
-      "price": "$600,000",
-      "status": "sale",
-      "area": "1500 sq ft",
-      "location": "New York City, New York",
-      "facilities": ["Open floor plan", "City views", "Fitness center", "24/7 security"],
-      "image": "path/to/image2.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Charming Suburban Home",
-      "id":3,
-      "name": "Family Homes",
-      "description": "A cozy family home nestled in a quiet suburban neighborhood, close to schools and parks.",
-      "price": "$400,000",
-      "status": "sale",
-      "area": "2500 sq ft",
-      "location": "Dallas, Texas",
-      "facilities": ["Backyard garden", "Fireplace", "Spacious bedrooms", "Home office"],
-      "image": "path/to/image3.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Seaside Cottage Retreat",
-      "id":4,
-      "name": "Vacation Homes",
-      "description": "Escape to this charming seaside cottage for a relaxing getaway by the beach.",
-      "price": "$800,000",
-      "status": "sale",
-      "area": "2000 sq ft",
-      "location": "Cape Cod, Massachusetts",
-      "facilities": ["Private beach access", "Deck with ocean views", "Cozy fireplace", "Outdoor shower"],
-      "image": "path/to/image4.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Luxury Penthouse in the Sky",
-      "id":5,
-      "name": "Luxury Homes",
-      "description": "Live in the lap of luxury with this stunning penthouse boasting panoramic city views.",
-      "price": "$3,200,000",
-      "status": "sale",
-      "area": "4000 sq ft",
-      "location": "Los Angeles, California",
-      "facilities": ["Private rooftop terrace", "Jacuzzi", "Home automation system", "Concierge service"],
-      "image": "path/to/image5.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Mountain Retreat Cabin",
-      "id":6,
-      "name": "Vacation Homes",
-   "description": "Cozy cabin nestled in the mountains, perfect for a tranquil retreat surrounded by nature.",
-      "price": "$500,000",
-      "status": "sale",
-      "area": "1800 sq ft",
-      "location": "Aspen, Colorado",
-      "facilities": ["Wood-burning fireplace", "Wrap-around deck", "Hot tub", "Hiking trails nearby"],
-      "image": "path/to/image6.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Elegant Townhouse in Historic District",
-      "id": 7,
-      "name": "Urban Living",
-      "description": "Historic townhouse with modern updates, located in a vibrant and eclectic neighborhood.",
-      "price": "$1,200,000",
-      "status": "sale",
-      "area": "3000 sq ft",
-      "location": "Charleston, South Carolina",
-      "facilities": ["Private courtyard", "High ceilings", "Antique fixtures", "Walking distance to shops and restaurants"],
-      "image": "path/to/image7.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Lakefront Retreat Estate",
-      "id": 8,
-      "name": "Vacation Homes",
-      "description": "Sprawling estate on the shores of a picturesque lake, perfect for family gatherings and outdoor activities.",
-      "price": "$1,800,000",
-      "status": "sale",
-      "area": "6000 sq ft",
-      "location": "Lake Tahoe, California",
-      "facilities": ["Private dock", "Outdoor kitchen", "Game room", "Boat slip"],
-      "image": "path/to/image8.jpg",
-      "button": "View Property"
-    },
-    {
-      "title": "Contemporary Beachfront Condo",
-      "id": 9,
-      "name": "Vacation Homes",
-      "description": "Enjoy luxurious beachfront living in this modern condo with stunning ocean views.",
-      "price": "$1,500,000",
-      "status": "sale",
-      "area": "2000 sq ft",
-      "location": "Miami Beach, Florida",
-      "facilities": ["Direct beach access", "Balcony with ocean views", "Fitness center", "24/7 security"],
-      "image": "path/to/image9.jpg",
-      "button": "View Property"
-    }
-  ]
+  {
+    "title": "Luxury Villa with Ocean View",
+    "id": 1,
+    "name": "Luxury Homes",
+    "description": "This stunning villa offers breathtaking ocean views, luxurious amenities, and spacious living areas.",
+    "price": "$2,500,000",
+    "status": "sale",
+    "area": "5000 sq ft",
+    "location": "Malibu, California",
+    "facilities": [
+      "Infinity pool",
+      "Spa",
+      "Gourmet kitchen",
+      "Home theater"
+    ],
+    "image": "https://i.ibb.co/LPG0Lmc/1.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Modern Downtown Loft",
+    "id": 2,
+    "name": "Urban Living",
+    "description": "Sleek and stylish loft apartment in the heart of the city, perfect for young professionals.",
+    "price": "$600,000",
+    "status": "sale",
+    "area": "1500 sq ft",
+    "location": "New York City, New York",
+    "facilities": [
+      "Open floor plan",
+      "City views",
+      "Fitness center",
+      "24/7 security"
+    ],
+    "image": "https://i.ibb.co/x7241dW/2.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Charming Suburban Home",
+    "id": 3,
+    "name": "Family Homes",
+    "description": "A cozy family home nestled in a quiet suburban neighborhood, close to schools and parks.",
+    "price": "$400,000",
+    "status": "sale",
+    "area": "2500 sq ft",
+    "location": "Dallas, Texas",
+    "facilities": [
+      "Backyard garden",
+      "Fireplace",
+      "Spacious bedrooms",
+      "Home office"
+    ],
+    "image": "https://i.ibb.co/M8VQNzg/3.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Seaside Cottage Retreat",
+    "id": 4,
+    "name": "Vacation Homes",
+    "description": "Escape to this charming seaside cottage for a relaxing getaway by the beach.",
+    "price": "$800,000",
+    "status": "sale",
+    "area": "2000 sq ft",
+    "location": "Cape Cod, Massachusetts",
+    "facilities": [
+      "Private beach access",
+      "Deck with ocean views",
+      "Cozy fireplace",
+      "Outdoor shower"
+    ],
+    "image": "https://i.ibb.co/0jVybZK/4.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Luxury Penthouse in the Sky",
+    "id": 5,
+    "name": "Luxury Homes",
+    "description": "Live in the lap of luxury with this stunning penthouse boasting panoramic city views.",
+    "price": "$3,200,000",
+    "status": "sale",
+    "area": "4000 sq ft",
+    "location": "Los Angeles, California",
+    "facilities": [
+      "Private rooftop terrace",
+      "Jacuzzi",
+      "Home automation system",
+      "Concierge service"
+    ],
+    "image": "https://i.ibb.co/P6Gvhjb/5.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Mountain Retreat Cabin",
+    "id": 6,
+    "name": "Vacation Homes",
+    "description": "Cozy cabin nestled in the mountains, perfect for a tranquil retreat surrounded by nature.",
+    "price": "$500,000",
+    "status": "sale",
+    "area": "1800 sq ft",
+    "location": "Aspen, Colorado",
+    "facilities": [
+      "Wood-burning fireplace",
+      "Wrap-around deck",
+      "Hot tub",
+      "Hiking trails nearby"
+    ],
+    "image": "https://i.ibb.co/GR8R0NH/6.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Elegant Townhouse in Historic District",
+    "id": 7,
+    "name": "Urban Living",
+    "description": "Historic townhouse with modern updates, located in a vibrant and eclectic neighborhood.",
+    "price": "$1,200,000",
+    "status": "sale",
+    "area": "3000 sq ft",
+    "location": "Charleston, South Carolina",
+    "facilities": [
+      "Private courtyard",
+      "High ceilings",
+      "Antique fixtures",
+      "Walking distance to shops and restaurants"
+    ],
+    "image": "path/to/image7.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Lakefront Retreat Estate",
+    "id": 8,
+    "name": "Vacation Homes",
+    "description": "Sprawling estate on the shores of a picturesque lake, perfect for family gatherings and outdoor activities.",
+    "price": "$1,800,000",
+    "status": "sale",
+    "area": "6000 sq ft",
+    "location": "Lake Tahoe, California",
+    "facilities": [
+      "Private dock",
+      "Outdoor kitchen",
+      "Game room",
+      "Boat slip"
+    ],
+    "image": "path/to/image8.jpg",
+    "button": "View Property"
+  },
+  {
+    "title": "Contemporary Beachfront Condo",
+    "id": 9,
+    "name": "Vacation Homes",
+    "description": "Enjoy luxurious beachfront living in this modern condo with stunning ocean views.",
+    "price": "$1,500,000",
+    "status": "sale",
+    "area": "2000 sq ft",
+    "location": "Miami Beach, Florida",
+    "facilities": [
+      "Direct beach access",
+      "Balcony with ocean views",
+      "Fitness center",
+      "24/7 security"
+    ],
+    "image": "path/to/image9.jpg",
+    "button": "View Property"
+  }
+]

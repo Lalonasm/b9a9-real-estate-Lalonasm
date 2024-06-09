@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { TfiHome } from "react-icons/tfi";
+import { FcBusinessman } from "react-icons/fc";
 
 
 const Navbar = () => {
@@ -7,8 +8,8 @@ const Navbar = () => {
         <>
             <li className=""><NavLink to="/">Home</NavLink></li>
             <li className=""><NavLink to="/update">Update Profile</NavLink></li>
-            <li className=""><NavLink to="/login">User Profile</NavLink></li>
-            <li className=""><NavLink to="/register">User Profile</NavLink></li>
+            <li className=""><NavLink to="/login">Login</NavLink></li>
+            <li className=""><NavLink to="/register">Register</NavLink></li>
 
         </>
 
@@ -26,7 +27,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex">
                     <p className="text-6xl text-[#ADEAF2]" title="Uranus -Single Room Estate Property"><TfiHome></TfiHome></p>
-                    <a className="btn btn-ghost text-xl"><span className="text-5xl font-bold text-[#ADEAF2] "> URANUS</span> Home</a></div>
+                    <a className="btn btn-ghost text-sm"><span className="text-5xl font-bold text-[#ADEAF2] "> URANUS</span> Home</a></div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -34,7 +35,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-[#ADEAF2]">Button</a>
+                <div className="indicator">
+                    {/* <span className="indicator-item badge badge-secondary"></span> */}
+                    <div className="grid  bg-base-300 place-items-center"><FcBusinessman></FcBusinessman></div>
+                </div>
             </div>
         </div>
     );

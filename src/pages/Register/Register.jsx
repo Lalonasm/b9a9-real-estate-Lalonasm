@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../Shared/Navbar/Navbar";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 
 
 
 const Register = () => {
     const { createUser } = useContext(AuthContext)
+    const [registerError, setRegisterError] = useState('');
+    const [success, setSuccess] = useState('');
 
 
     const handleRegister = (e) => {
@@ -17,12 +19,32 @@ const Register = () => {
         const email = form.get('email');
         const password = form.get('password');
         console.log(name, photo, email, password);
+        setRegisterError('');
+        setSuccess('');
+
+        if (password.length < 6) {
+            setRegisterError('Password should be at least 6 characters or longer');
+            return;
+        }
+        else if (!/[A-Z]/.test(password)) {
+            setRegisterError('Your password must have one uppercase character.');
+            return;
+        }
+        else if (!/[a-z]/.test(password)) {
+            setRegisterError('Your password must have one lowercase character.');
+            return;
+        }
+
 
         createUser(email, password)
             .then(result => {
                 console.log(result.user)
+                setSuccess('You are Registered Successfully')
             })
-            .catch(error => console.error(error))
+            .catch(error => {
+                setRegisterError(error.message)
+                console.error(error)
+            })
 
 
 
@@ -56,7 +78,10 @@ const Register = () => {
                         <label className="label">
                             <span className="label-text">Password</span>
                         </label>
+
                         <input type="password" placeholder="password" name="password" className="input input-bordered" required />
+                        <span>Show</span>
+
                         <label className="label">
                             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                         </label>
@@ -65,7 +90,13 @@ const Register = () => {
                         <button className="btn bg-[#ADEAF2] ">Register</button>
                     </div>
                 </form>
-                <p className="mb-10">Already Have an Account? Please <Link className="bg-[#ADEAF2]" to={'/login'}>Login</Link></p>
+                {
+                    registerError && <p className="text-red-700 font-bold mb-4">{registerError}</p>
+                }
+                {
+                    success && <p className="text-green-700 font-bold mb-4">{success}</p>
+                }
+                <p className="mb-10">Already Have an Account? Please <Link className="text-[#ADEAF2] font-bold rounded-xl p-4" to={'/login'}>Login</Link></p>
             </div>
         </div>
     );

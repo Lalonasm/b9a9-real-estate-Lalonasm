@@ -122,7 +122,7 @@
       "Antique fixtures",
       "Walking distance to shops and restaurants"
     ],
-    "image": "path/to/image7.jpg",
+    "image": "https://i.ibb.co/KDFY4Bq/7.jpg",
     "button": "View Property"
   },
   {
@@ -140,7 +140,7 @@
       "Game room",
       "Boat slip"
     ],
-    "image": "path/to/image8.jpg",
+    "image": "https://i.ibb.co/TWNptMD/8.jpg",
     "button": "View Property"
   },
   {
@@ -158,7 +158,7 @@
       "Fitness center",
       "24/7 security"
     ],
-    "image": "path/to/image9.jpg",
+    "image": "https://i.ibb.co/8rkT1tG/9.jpg",
     "button": "View Property"
   }
 ]

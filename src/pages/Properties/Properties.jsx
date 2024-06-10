@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import SingleProperty from '../SingleProperty/SingleProperty';
+import Navbar from '../../Shared/Navbar/Navbar';
 
 const Properties = () => {
     const [properties, setProperties] = useState([]);
@@ -14,6 +15,7 @@ const Properties = () => {
     }, [])
     return (
         <div className='text-center container mb-8'>
+            <Navbar></Navbar>
             <h2 className='text-5xl font-bold mb-10'>One Click Single Property</h2>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
                 {

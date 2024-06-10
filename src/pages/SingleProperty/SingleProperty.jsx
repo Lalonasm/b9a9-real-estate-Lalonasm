@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 
 
 
 const SingleProperty = ({ property }) => {
-    const { image, title, area, button, description, price, facilities, location } = property;
+    const { image, title, area, button, description, price, id, facilities, location } = property;
 
     return (
         <div >
@@ -18,7 +19,9 @@ const SingleProperty = ({ property }) => {
                     </div>
                     <div className=" flex  items-center justify-end">
                         <p className="text-xs font-bold ">{area}</p>
-                        <button className="btn  bg-[#ADEAF2]">{button}</button>
+                        <Link to={`/property/${id}`}>
+
+                            <button className="btn  bg-[#ADEAF2]">{button}</button></Link>
                     </div>
                 </div>
             </div>

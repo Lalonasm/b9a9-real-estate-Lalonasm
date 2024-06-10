@@ -3,8 +3,9 @@ import Root from "../layouts/Root";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
-import SingleProperty from "../pages/SingleProperty/SingleProperty";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import Properties from "../pages/Properties/Properties";
+import PropertyDetails from "../pages/SingleProperty/PropertyDetails";
 // import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 
@@ -29,7 +30,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/singleProperty',
-                element: <SingleProperty></SingleProperty>
+                element: <Properties></Properties>
+            },
+            {
+                path: '/singleProperty/:id',
+                element: <PropertyDetails></PropertyDetails>,
+                loader: () => fetch('../property.json')
             }
         ]
     },

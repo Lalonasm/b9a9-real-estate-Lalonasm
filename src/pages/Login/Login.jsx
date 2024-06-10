@@ -50,13 +50,13 @@ const Login = () => {
                             <span className="label-text">Password</span>
                         </label>
                         <input type="password" placeholder="password" name="password" className="input input-bordered" required />
-                       
+
                     </div>
                     <div className="form-control mt-6">
                         <button className="btn  bg-[#ADEAF2]">Login</button>
                     </div>
                 </form>
-                <p className="mb-10">Do Not Have an Account? Please <Link className="bg-[#ADEAF2]" to={'/register'}>Register</Link> </p>
+                <p className="mb-10">Do Not Have an Account? Please <Link className="text-[#ADEAF2] font-bold rounded-xl p-4" to={'/register'}>Register</Link> </p>
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import Navbar from "../../Shared/Navbar/Navbar";
+// import Navbar from "../../Shared/Navbar/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 
@@ -36,7 +36,7 @@ const Login = () => {
     }
     return (
         <div>
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <div className="text-center">
                 <form onSubmit={handleLogin} className="card-body lg:w-1/2 md:w-3/4 mx-auto">
                     <div className="form-control">

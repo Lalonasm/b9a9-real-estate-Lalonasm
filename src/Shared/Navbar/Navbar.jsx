@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex">
                     <p className="text-6xl text-[#ADEAF2]" title="Uranus -Single Room Estate Property"><TfiHome></TfiHome></p>
-                    <a className="btn btn-ghost text-sm"><span className="text-5xl font-bold text-[#ADEAF2] "> URANUS</span> Home</a></div>
+                    <a className="btn btn-ghost text-sm mr-10"><span className="text-5xl font-bold text-[#ADEAF2] "> URANUS</span> Home</a></div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

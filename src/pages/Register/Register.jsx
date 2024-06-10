@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Navbar from "../../Shared/Navbar/Navbar";
+// import Navbar from "../../Shared/Navbar/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
@@ -54,7 +54,7 @@ const Register = () => {
     return (
 
         <div>
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <div className="text-center">
                 <h2>Please Login</h2>
                 <form onSubmit={handleRegister} className="card-body lg:w-1/2 md:w-3/4 mx-auto">
@@ -86,7 +86,7 @@ const Register = () => {
                             placeholder="password" name="password" className="input input-bordered" required />
                         <span onClick={() => setShowPassword(!showPassword)}>
                             {
-                                showPassword ?  <FaEyeSlash></FaEyeSlash>:<FaEye></FaEye>
+                                showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
                             }
 
                         </span>
